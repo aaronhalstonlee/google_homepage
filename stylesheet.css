@@ -1,0 +1,20 @@
+img{
+    height: 250px;
+    padding: 0;
+}
+
+button {
+    height: 28px;
+}
+.page {
+    text-align: center;
+}
+
+#search {
+    display: inline-block;
+}
+
+div#logo {
+    height: 205px;
+    padding: 0;
+}

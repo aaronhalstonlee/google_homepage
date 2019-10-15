@@ -6,12 +6,20 @@
         <title>Google!</title>
         <meta name="description" content="The HTML5 Herald">
         <meta name="author" content="SitePoint">
-        <link rel="stylesheet" href="css/styles.css?v=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
 
     <body>
-        <img src="https://cdn.vox-cdn.com/thumbor/8tLchaDMIEDNzUD3mYQ7v1ZQL84=/0x0:2012x1341/920x613/filters:focal(0x0:2012x1341):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg">
-        <input type="text" placeholder="Search">
+        <div class="page">
+            <div id="logo">
+                <img src="https://cdn.vox-cdn.com/thumbor/8tLchaDMIEDNzUD3mYQ7v1ZQL84=/0x0:2012x1341/920x613/filters:focal(0x0:2012x1341):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg">
+            </div>
+            <form id="search">
+                <input type="text" placeholder="Search">
+                <button type="submit">search</button>
+            </form>
+        </div>
+        
         <script src="js/scripts.js"></script>
     </body>
 </html>
